@@ -17,12 +17,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EDB0A5BD2827269B008A1B35 /* Swift-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB0A5BD2827269B008A1B35 /* Practice-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practice-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB0A5C02827269B008A1B35 /* Swift_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_PracticeApp.swift; sourceTree = "<group>"; };
 		EDB0A5C22827269B008A1B35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDB0A5C42827269D008A1B35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDB0A5C72827269D008A1B35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EDB0A5C92827269D008A1B35 /* Swift_Practice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swift_Practice.entitlements; sourceTree = "<group>"; };
+		EDB0A5C92827269D008A1B35 /* Practice_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Practice_Swift.entitlements; sourceTree = "<group>"; };
 		EDB0A5D428273E48008A1B35 /* CodeRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeRunner.swift; sourceTree = "<group>"; };
 		EDB0A5D82827E979008A1B35 /* NSColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSColor+Hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,7 +42,7 @@
 		EDB0A5B42827269B008A1B35 = {
 			isa = PBXGroup;
 			children = (
-				EDB0A5BF2827269B008A1B35 /* Swift-Practice */,
+				EDB0A5BF2827269B008A1B35 /* Practice-Swift */,
 				EDB0A5BE2827269B008A1B35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		EDB0A5BE2827269B008A1B35 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDB0A5BD2827269B008A1B35 /* Swift-Practice.app */,
+				EDB0A5BD2827269B008A1B35 /* Practice-Swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDB0A5BF2827269B008A1B35 /* Swift-Practice */ = {
+		EDB0A5BF2827269B008A1B35 /* Practice-Swift */ = {
 			isa = PBXGroup;
 			children = (
 				EDB0A5C02827269B008A1B35 /* Swift_PracticeApp.swift */,
@@ -63,10 +63,10 @@
 				EDB0A5D428273E48008A1B35 /* CodeRunner.swift */,
 				EDB0A5D82827E979008A1B35 /* NSColor+Hex.swift */,
 				EDB0A5C42827269D008A1B35 /* Assets.xcassets */,
-				EDB0A5C92827269D008A1B35 /* Swift_Practice.entitlements */,
+				EDB0A5C92827269D008A1B35 /* Practice_Swift.entitlements */,
 				EDB0A5C62827269D008A1B35 /* Preview Content */,
 			);
-			path = "Swift-Practice";
+			path = "Practice-Swift";
 			sourceTree = "<group>";
 		};
 		EDB0A5C62827269D008A1B35 /* Preview Content */ = {
@@ -80,9 +80,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDB0A5BC2827269B008A1B35 /* Swift-Practice */ = {
+		EDB0A5BC2827269B008A1B35 /* Practice-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDB0A5CC2827269D008A1B35 /* Build configuration list for PBXNativeTarget "Swift-Practice" */;
+			buildConfigurationList = EDB0A5CC2827269D008A1B35 /* Build configuration list for PBXNativeTarget "Practice-Swift" */;
 			buildPhases = (
 				EDB0A5B92827269B008A1B35 /* Sources */,
 				EDB0A5BA2827269B008A1B35 /* Frameworks */,
@@ -92,12 +92,12 @@
 			);
 			dependencies = (
 			);
-			name = "Swift-Practice";
+			name = "Practice-Swift";
 			packageProductDependencies = (
 				EDB0A5D028272ABD008A1B35 /* Sourceful */,
 			);
 			productName = "Swift-Practice";
-			productReference = EDB0A5BD2827269B008A1B35 /* Swift-Practice.app */;
+			productReference = EDB0A5BD2827269B008A1B35 /* Practice-Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +115,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EDB0A5B82827269B008A1B35 /* Build configuration list for PBXProject "Swift-Practice" */;
+			buildConfigurationList = EDB0A5B82827269B008A1B35 /* Build configuration list for PBXProject "Practice-Swift" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EDB0A5BC2827269B008A1B35 /* Swift-Practice */,
+				EDB0A5BC2827269B008A1B35 /* Practice-Swift */,
 			);
 		};
 /* End PBXProject section */
@@ -282,11 +282,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = "Swift-Practice/Swift_Practice.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Practice-Swift/Practice_Swift.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Swift-Practice/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Practice-Swift/Preview Content\"";
 				DEVELOPMENT_TEAM = 5HD4FUWSU4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -310,11 +310,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = "Swift-Practice/Swift_Practice.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Practice-Swift/Practice_Swift.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Swift-Practice/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Practice-Swift/Preview Content\"";
 				DEVELOPMENT_TEAM = 5HD4FUWSU4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -335,7 +335,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDB0A5B82827269B008A1B35 /* Build configuration list for PBXProject "Swift-Practice" */ = {
+		EDB0A5B82827269B008A1B35 /* Build configuration list for PBXProject "Practice-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDB0A5CA2827269D008A1B35 /* Debug */,
@@ -344,7 +344,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDB0A5CC2827269D008A1B35 /* Build configuration list for PBXNativeTarget "Swift-Practice" */ = {
+		EDB0A5CC2827269D008A1B35 /* Build configuration list for PBXNativeTarget "Practice-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDB0A5CD2827269D008A1B35 /* Debug */,
