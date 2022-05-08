@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "sourceful",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/twostraws/Sourceful.git",
+      "state" : {
+        "revision" : "77317c0043dc0330e2baf02c43d415bc7cc8a784",
+        "version" : "0.4.0"
+      }
+    }
+  ],
+  "version" : 2
+}
