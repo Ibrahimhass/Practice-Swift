@@ -8,7 +8,6 @@
 import Cocoa
 
 extension NSColor {
-    
     convenience init(hex: String) {
         let trimHex = hex.trimmingCharacters(in: .whitespacesAndNewlines)
         let dropHash = String(trimHex.dropFirst()).trimmingCharacters(in: .whitespacesAndNewlines)

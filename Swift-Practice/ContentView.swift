@@ -31,6 +31,7 @@ struct ContentView: View {
                 let header = hasError ? "Error" : "Output"
                 let consoleOutput = hasError ? viewModel.error : viewModel.output
                 let noOutputOrError = viewModel.error.isEmpty && viewModel.output.isEmpty
+                let headerColor = hasError ? Color.red : Color.green
                 
                 ZStack(alignment: .topLeading) {
                     VStack {
@@ -38,15 +39,17 @@ struct ContentView: View {
                             .fontWeight(.bold)
                             .frame(alignment: .topLeading)
                             .padding(EdgeInsets(top: 4, leading: 4, bottom: 0, trailing: 0))
+                            .foregroundColor(headerColor)
                         
                         TextEditor(text: .constant(consoleOutput))
                             .font(.title3)
+                            .colorMultiply(.gray)
+                            .foregroundColor(headerColor)
                     }
                 }
                 .frame(height: 150)
                 .frame(maxWidth: .infinity, alignment: .topLeading)
                 .padding(8)
-                .foregroundColor(Color.white)
                 .background(Color.init(nsColor: NSColor.init(hex: "#2D2D2D")))
                 .isHidden(noOutputOrError, remove: noOutputOrError)
             }
